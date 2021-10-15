@@ -268,7 +268,7 @@
 
 // Type definitions
 #ifdef Q_OS_MACOS
-#define TPCANLong                quint64
+#define TPCANLong                quint32
 #define TPCANLongToFrameID(a)    static_cast<quint32>(a)
 #else
 #define TPCANLong                quint32
