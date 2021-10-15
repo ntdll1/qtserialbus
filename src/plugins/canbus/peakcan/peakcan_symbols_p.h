@@ -275,7 +275,7 @@
 
 // Type definitions
 #ifdef Q_OS_MACOS
-#define TPCANLong                quint64
+#define TPCANLong                quint32
 #else
 #define TPCANLong                quint32
 #endif
